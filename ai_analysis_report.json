@@ -1,0 +1,710 @@
+{
+  "generated_at": "2026-04-14T17:44:03.225837",
+  "model_used": "qwen/qwen3.6-plus",
+  "database": "dumpdata",
+  "schema_summary": {
+    "attendance_logs": {
+      "row_count": 0,
+      "bigint_columns": 3,
+      "total_columns": 10
+    },
+    "attendances": {
+      "row_count": 0,
+      "bigint_columns": 6,
+      "total_columns": 22
+    },
+    "authorize_customers": {
+      "row_count": 443,
+      "bigint_columns": 2,
+      "total_columns": 18
+    },
+    "authorize_nets": {
+      "row_count": 832,
+      "bigint_columns": 1,
+      "total_columns": 9
+    },
+    "brand_user": {
+      "row_count": 232,
+      "bigint_columns": 2,
+      "total_columns": 5
+    },
+    "brands": {
+      "row_count": 10,
+      "bigint_columns": 1,
+      "total_columns": 20
+    },
+    "break_models": {
+      "row_count": 0,
+      "bigint_columns": 2,
+      "total_columns": 12
+    },
+    "budget_spendings": {
+      "row_count": 964,
+      "bigint_columns": 0,
+      "total_columns": 7
+    },
+    "cache": {
+      "row_count": 1,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "chat_reads": {
+      "row_count": 6393,
+      "bigint_columns": 2,
+      "total_columns": 4
+    },
+    "chats": {
+      "row_count": 3105,
+      "bigint_columns": 1,
+      "total_columns": 7
+    },
+    "cities": {
+      "row_count": 148068,
+      "bigint_columns": 0,
+      "total_columns": 6
+    },
+    "client_files": {
+      "row_count": 3026,
+      "bigint_columns": 2,
+      "total_columns": 6
+    },
+    "comment_user": {
+      "row_count": 2218,
+      "bigint_columns": 1,
+      "total_columns": 2
+    },
+    "comments": {
+      "row_count": 4679,
+      "bigint_columns": 2,
+      "total_columns": 8
+    },
+    "companies": {
+      "row_count": 1,
+      "bigint_columns": 2,
+      "total_columns": 25
+    },
+    "countries": {
+      "row_count": 250,
+      "bigint_columns": 0,
+      "total_columns": 9
+    },
+    "currencies": {
+      "row_count": 4,
+      "bigint_columns": 0,
+      "total_columns": 7
+    },
+    "department_user": {
+      "row_count": 29,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "departments": {
+      "row_count": 18,
+      "bigint_columns": 0,
+      "total_columns": 5
+    },
+    "failed_jobs": {
+      "row_count": 43,
+      "bigint_columns": 1,
+      "total_columns": 7
+    },
+    "fileables": {
+      "row_count": 21728,
+      "bigint_columns": 2,
+      "total_columns": 5
+    },
+    "files": {
+      "row_count": 16892,
+      "bigint_columns": 1,
+      "total_columns": 8
+    },
+    "holidays": {
+      "row_count": 10,
+      "bigint_columns": 1,
+      "total_columns": 10
+    },
+    "imagetable": {
+      "row_count": 2,
+      "bigint_columns": 1,
+      "total_columns": 10
+    },
+    "invoice_attaches": {
+      "row_count": 97,
+      "bigint_columns": 1,
+      "total_columns": 5
+    },
+    "invoice_billings": {
+      "row_count": 3032,
+      "bigint_columns": 2,
+      "total_columns": 9
+    },
+    "invoice_services": {
+      "row_count": 4600,
+      "bigint_columns": 2,
+      "total_columns": 7
+    },
+    "invoice_statuses": {
+      "row_count": 7,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "invoice_types": {
+      "row_count": 2,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "invoiceables": {
+      "row_count": 4291,
+      "bigint_columns": 2,
+      "total_columns": 4
+    },
+    "invoices": {
+      "row_count": 4538,
+      "bigint_columns": 3,
+      "total_columns": 17
+    },
+    "ip_lists": {
+      "row_count": 15,
+      "bigint_columns": 0,
+      "total_columns": 7
+    },
+    "jobs": {
+      "row_count": 0,
+      "bigint_columns": 1,
+      "total_columns": 7
+    },
+    "label_project": {
+      "row_count": 745,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "labels": {
+      "row_count": 21,
+      "bigint_columns": 0,
+      "total_columns": 5
+    },
+    "lead_assign_histories": {
+      "row_count": 3069,
+      "bigint_columns": 3,
+      "total_columns": 7
+    },
+    "lead_services": {
+      "row_count": 47,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "leads": {
+      "row_count": 2205,
+      "bigint_columns": 3,
+      "total_columns": 15
+    },
+    "leave_balances": {
+      "row_count": 90,
+      "bigint_columns": 2,
+      "total_columns": 9
+    },
+    "leave_policies": {
+      "row_count": 4,
+      "bigint_columns": 1,
+      "total_columns": 9
+    },
+    "leave_requests": {
+      "row_count": 0,
+      "bigint_columns": 4,
+      "total_columns": 14
+    },
+    "leave_types": {
+      "row_count": 4,
+      "bigint_columns": 1,
+      "total_columns": 10
+    },
+    "login_sessions": {
+      "row_count": 15,
+      "bigint_columns": 2,
+      "total_columns": 14
+    },
+    "logo_forms": {
+      "row_count": 1269,
+      "bigint_columns": 2,
+      "total_columns": 23
+    },
+    "m_flag": {
+      "row_count": 14,
+      "bigint_columns": 1,
+      "total_columns": 13
+    },
+    "marketing_spendings": {
+      "row_count": 964,
+      "bigint_columns": 1,
+      "total_columns": 5
+    },
+    "migrations": {
+      "row_count": 103,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "nmi_customers": {
+      "row_count": 267,
+      "bigint_columns": 1,
+      "total_columns": 14
+    },
+    "nmis": {
+      "row_count": 453,
+      "bigint_columns": 1,
+      "total_columns": 8
+    },
+    "notifications": {
+      "row_count": 332424,
+      "bigint_columns": 1,
+      "total_columns": 8
+    },
+    "party_logo_forms": {
+      "row_count": 2,
+      "bigint_columns": 1,
+      "total_columns": 23
+    },
+    "party_web_forms": {
+      "row_count": 6,
+      "bigint_columns": 1,
+      "total_columns": 38
+    },
+    "password_resets": {
+      "row_count": 0,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "payment_methods": {
+      "row_count": 8,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "permissions": {
+      "row_count": 148,
+      "bigint_columns": 0,
+      "total_columns": 4
+    },
+    "profiles": {
+      "row_count": 96,
+      "bigint_columns": 1,
+      "total_columns": 18
+    },
+    "project_admin": {
+      "row_count": 0,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "project_types": {
+      "row_count": 24,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "project_user": {
+      "row_count": 4655,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "projects": {
+      "row_count": 737,
+      "bigint_columns": 0,
+      "total_columns": 12
+    },
+    "role_permissions": {
+      "row_count": 1717,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "roles": {
+      "row_count": 97,
+      "bigint_columns": 0,
+      "total_columns": 6
+    },
+    "sessions": {
+      "row_count": 33,
+      "bigint_columns": 1,
+      "total_columns": 6
+    },
+    "shift_schedules": {
+      "row_count": 5,
+      "bigint_columns": 2,
+      "total_columns": 18
+    },
+    "sign_ups": {
+      "row_count": 16541,
+      "bigint_columns": 2,
+      "total_columns": 17
+    },
+    "source_spendings": {
+      "row_count": 3856,
+      "bigint_columns": 0,
+      "total_columns": 7
+    },
+    "sources": {
+      "row_count": 5,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "special_work_dayables": {
+      "row_count": 1,
+      "bigint_columns": 3,
+      "total_columns": 4
+    },
+    "special_work_days": {
+      "row_count": 2,
+      "bigint_columns": 2,
+      "total_columns": 15
+    },
+    "spending_dates": {
+      "row_count": 2433,
+      "bigint_columns": 1,
+      "total_columns": 5
+    },
+    "square_customers": {
+      "row_count": 16,
+      "bigint_columns": 1,
+      "total_columns": 18
+    },
+    "squares": {
+      "row_count": 16,
+      "bigint_columns": 1,
+      "total_columns": 8
+    },
+    "states": {
+      "row_count": 4964,
+      "bigint_columns": 0,
+      "total_columns": 6
+    },
+    "stripe_customers": {
+      "row_count": 0,
+      "bigint_columns": 2,
+      "total_columns": 11
+    },
+    "stripes": {
+      "row_count": 2893,
+      "bigint_columns": 1,
+      "total_columns": 8
+    },
+    "task_issues": {
+      "row_count": 4,
+      "bigint_columns": 0,
+      "total_columns": 11
+    },
+    "task_statuses": {
+      "row_count": 6,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "task_user": {
+      "row_count": 10115,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "tasks": {
+      "row_count": 4283,
+      "bigint_columns": 0,
+      "total_columns": 14
+    },
+    "team_user": {
+      "row_count": 148,
+      "bigint_columns": 0,
+      "total_columns": 3
+    },
+    "teams": {
+      "row_count": 22,
+      "bigint_columns": 0,
+      "total_columns": 7
+    },
+    "tests": {
+      "row_count": 35,
+      "bigint_columns": 0,
+      "total_columns": 4
+    },
+    "tranaction_histories": {
+      "row_count": 51167,
+      "bigint_columns": 4,
+      "total_columns": 13
+    },
+    "transaction_statuses": {
+      "row_count": 22,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "transfer_invoice_amounts": {
+      "row_count": 14,
+      "bigint_columns": 4,
+      "total_columns": 8
+    },
+    "type_project": {
+      "row_count": 1224,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "unread_notifications_counts": {
+      "row_count": 6,
+      "bigint_columns": 2,
+      "total_columns": 5
+    },
+    "user_permissions": {
+      "row_count": 2170,
+      "bigint_columns": 2,
+      "total_columns": 2
+    },
+    "user_roles": {
+      "row_count": 641,
+      "bigint_columns": 0,
+      "total_columns": 2
+    },
+    "users": {
+      "row_count": 633,
+      "bigint_columns": 2,
+      "total_columns": 18
+    },
+    "web_forms": {
+      "row_count": 617,
+      "bigint_columns": 2,
+      "total_columns": 38
+    },
+    "websockets_statistics_entries": {
+      "row_count": 0,
+      "bigint_columns": 0,
+      "total_columns": 7
+    }
+  },
+  "ai_analysis": {
+    "analysis": {
+      "high_growth_tables": [
+        "attendance_logs",
+        "attendances"
+      ],
+      "stable_tables": [
+        "authorize_customers",
+        "authorize_nets",
+        "brand_user"
+      ],
+      "reasoning": "Attendance tables capture daily punch events and daily summaries, resulting in linear-to-exponential growth proportional to active users. Payment and authorization tables grow with transaction volume but remain bounded by business scale. Mapping and config reference tables exhibit low growth as they depend on organizational structure rather than daily activity."
+    },
+    "recommendations": [
+      {
+        "table": "attendance_logs",
+        "column": "id",
+        "current_type": "bigint",
+        "recommended_type": "bigint",
+        "reason": "Primary key for high-volume log table. Auto-increment sequence will accumulate rapidly over 5-10 years.",
+        "growth_prediction": "high",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 0
+      },
+      {
+        "table": "attendance_logs",
+        "column": "attendance_id",
+        "current_type": "bigint",
+        "recommended_type": "bigint",
+        "reason": "Foreign key to high-growth attendances table. Must match parent ID type to prevent overflow.",
+        "growth_prediction": "high",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 0
+      },
+      {
+        "table": "attendance_logs",
+        "column": "user_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Foreign key to users table. User count rarely exceeds 2.1 billion. Integer provides ample 10-year buffer.",
+        "growth_prediction": "medium",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "attendances",
+        "column": "id",
+        "current_type": "bigint",
+        "recommended_type": "bigint",
+        "reason": "Primary key for daily attendance records. High insert rate requires 64-bit sequence to avoid exhaustion.",
+        "growth_prediction": "high",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 0
+      },
+      {
+        "table": "attendances",
+        "column": "user_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Foreign key to users table. User base growth is bounded and well within 32-bit integer limits.",
+        "growth_prediction": "medium",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "attendances",
+        "column": "shift_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Foreign key to configuration table. Shift definitions are static or grow very slowly.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "attendances",
+        "column": "leave_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Foreign key to leave types/config. Low cardinality and stable growth pattern.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "attendances",
+        "column": "special_work_day_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Configuration reference. Rarely exceeds a few hundred records annually.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "attendances",
+        "column": "holiday_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Configuration reference. Fixed annual calendar entries ensure minimal growth.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "authorize_customers",
+        "column": "id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Current max is 443. Integer limit (2.1B) provides massive safety margin per Rule 5.",
+        "growth_prediction": "medium",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "authorize_customers",
+        "column": "lead_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Current max is 2234. Well within integer limits with 10x safety buffer.",
+        "growth_prediction": "medium",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "authorize_nets",
+        "column": "id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Transaction log ID. Even at high volume, 2.1B rows covers decades of operation safely.",
+        "growth_prediction": "medium",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "brand_user",
+        "column": "user_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Mapping table FK. User count growth is bounded and predictable.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      },
+      {
+        "table": "brand_user",
+        "column": "brand_id",
+        "current_type": "bigint",
+        "recommended_type": "integer",
+        "reason": "Mapping table FK. Brand count is typically low and stable.",
+        "growth_prediction": "low",
+        "years_safe": 10,
+        "risk_level": "low",
+        "bytes_saved_per_row": 4
+      }
+    ],
+    "warnings": [
+      "Downgrading bigint to integer on primary keys requires sequence reset or table rebuild. Ensure application ORM handles 32-bit integers correctly.",
+      "Attendance tables currently show 0 rows. Monitor initial growth velocity before executing ALTER TABLE commands.",
+      "External API IDs (if any are added later) must remain bigint regardless of current volume."
+    ],
+    "monitoring_queries": [
+      "SELECT schemaname, relname, n_live_tup, n_dead_tup, last_vacuum, last_autovacuum FROM pg_stat_user_tables WHERE relname IN ('attendance_logs', 'attendances', 'authorize_nets') ORDER BY n_live_tup DESC;",
+      "SELECT sequence_name, last_value, max_value, increment_by FROM information_schema.sequences WHERE sequence_name LIKE '%_id_seq%';",
+      "SELECT pg_size_pretty(pg_total_relation_size('attendance_logs')) AS table_size, pg_size_pretty(pg_indexes_size('attendance_logs')) AS index_size;",
+      "SELECT column_name, data_type, numeric_precision FROM information_schema.columns WHERE table_name = 'attendance_logs' AND data_type IN ('bigint', 'integer', 'smallint');"
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Change attendance_logs.user_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change attendances.user_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change attendances.shift_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change attendances.leave_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change attendances.special_work_day_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change attendances.holiday_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change authorize_customers.id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change authorize_customers.lead_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change authorize_nets.id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change brand_user.user_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    },
+    {
+      "action": "Change brand_user.brand_id to integer",
+      "priority": "high",
+      "estimated_savings_mb": 0.0
+    }
+  ]
+}
