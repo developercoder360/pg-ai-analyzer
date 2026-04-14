@@ -1,30 +1,28 @@
-# Environment & Secrets
+@'
+# 🔐 Secrets & Environment
 .env
-*.env.local
-*.env.production
+.env.local
+.env.production
 
-# Python
+# 🐍 Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 venv/
+.venv/
 ENV/
-.venv
 
-# Reports & Logs (optional: agar git mein track nahi karna)
-reports/*.json
-logs/*.log
+# 📊 Auto-generated Outputs (keep local)
+reports/
+logs/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+# 💻 OS & IDE
 .DS_Store
 Thumbs.db
 desktop.ini
+.vscode/
+.idea/
+*.log
+'@ | Out-File -FilePath .gitignore -Encoding utf8
